@@ -14,7 +14,7 @@ class Test:
         return response
 
 
-o = urllib2.build_opener(MyHandler())
+o = urllib2.build_opener(Test())
 t = threading.Thread(target=o.open, args=('http://www.google.com/',))
 t.start()
 print "I'm asynchronous!"	
