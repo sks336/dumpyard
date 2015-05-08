@@ -11,7 +11,7 @@ class Test:
 		print "info: %s" % (response.info(),)
         for l in response:
             print l
-        return response
+        return response.content()
 
 
 o = urllib2.build_opener(Test())

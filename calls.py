@@ -10,6 +10,6 @@ def download(url):
 
 
 if __name__ == '__main__':
-    urls = ['http://google.com'] * 100
+    urls = ['http://github.com',]
     pool = Pool(20)
     print pool.map(download, urls)

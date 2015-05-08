@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 from geventhttpclient import HTTPClient
 from geventhttpclient.url import URL
 
