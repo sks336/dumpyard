@@ -36,7 +36,7 @@ start() {
 }
 
 stop() {
-/bin/su -l ${TOMCAT_USER} /opt/tomcat/bin/stop.sh
+/bin/su -l ${TOMCAT_USER} /opt/tomcat/bin/shutdown.sh
 }
 
 case $1 in

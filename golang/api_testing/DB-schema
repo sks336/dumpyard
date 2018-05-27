@@ -1,0 +1,18 @@
+create database gotest;
+use gotest;
+CREATE TABLE person (id int NOT NULL AUTO_INCREMENT, first_name varchar(40), last_name varchar(40), PRIMARY KEY (id));
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'*' with grant option;
+ERROR 1133 (42000): Can't find any matching row in the user table
+mysql> show users;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'users' at line 1
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'*' with grant option;
+ERROR 1133 (42000): Can't find any matching row in the user table
+mysql> GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> 
+
