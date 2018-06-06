@@ -18,7 +18,7 @@ TOMCAT_USER="tomcat"
 #        echo "File present"
 #fi
 
-PATH=/sbin:/bin:/usr/sbin:/usr/bin
+# PATH=/sbin:/bin:/usr/sbin:/usr/bin
 # executable_jar=/
 
 # sh /opt/iptables.sh
