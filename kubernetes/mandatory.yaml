@@ -200,7 +200,6 @@ spec:
       app.kubernetes.io/name: ingress-nginx
       app.kubernetes.io/part-of: ingress-nginx
   template:
-    hostNetwork: true
     metadata:
       labels:
         app.kubernetes.io/name: ingress-nginx
