@@ -4,7 +4,6 @@ metadata:
   labels:
     app: work-queue
     component: queue
-    chapter: jobs
   name: queue
 spec:
   replicas: 1
@@ -13,7 +12,7 @@ spec:
       labels:
         app: work-queue
         component: queue
-        chapter: jobs
+        topic: jobs
     spec:
       containers:
       - name: queue

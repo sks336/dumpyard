@@ -3,12 +3,12 @@ kind: Job
 metadata:
   name: oneshot
   labels:
-    chapter: jobs
+    topic: jobs
 spec:
   template:
     metadata:
       labels:
-        chapter: jobs
+        topic: jobs
     spec:
       containers:
       - name: kuard

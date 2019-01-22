@@ -25,7 +25,6 @@ spec:
         env:
         # Environment variables are not a best practice for security,
         # but we're using them here for brevity in the example.
-        # See Chapter 11 for better options.
         - name: MYSQL_ROOT_PASSWORD
           value: some-password-here
         livenessProbe:

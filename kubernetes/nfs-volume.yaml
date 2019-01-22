@@ -9,6 +9,5 @@ spec:
     - ReadWriteMany
   capacity:
     storage: 1Gi
-  nfs:
-    server: 192.168.10.42
+  hostPath:
     path: "/exports"
