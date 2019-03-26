@@ -1,7 +1,6 @@
-FROM nginx:latest
-RUN apt-get update \
-    && apt-get install apache2-utils -y
-COPY index.html /usr/share/nginx/html/
-COPY .htpasswd /etc/nginx
-COPY default.conf /etc/nginx/conf.d/
-EXPOSE 80
+FROM fluent/fluentd
+RUN   apk add --update --virtual .build-deps sudo build-base ruby-dev
+     # && mkdir /data/ \
+     # && mkdir /data/td-agent
+RUN ["gem", "install", "fluent-plugin-mongo"]
+COPY fluentd.conf /fluentd/etc/fluent.conf  
