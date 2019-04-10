@@ -8,4 +8,5 @@ fn main() {
     println!("first element: {}", first);
     println!("second element: {}", second);
     println!("first month: {}", first_month);
+    println!("The array is {:?}", months);
 }
