@@ -15,5 +15,7 @@ edition = "2018"
 name = "communicator1"
 version = "0.1.0"
 authors = ["hellodk <hello.dk@outlook.com>"]
+description = "Dummy"
+license = "free"
 
 [dependencies]
