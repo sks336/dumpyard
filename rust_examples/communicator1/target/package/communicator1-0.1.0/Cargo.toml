@@ -14,7 +14,7 @@
 edition = "2018"
 name = "communicator1"
 version = "0.1.0"
-authors = ["hellodk <hello.dk@outlook.com>"]
+authors = ["hellodk <aditya.dk.rock@gmail.com>"]
 description = "Dummy"
 license = "free"
 

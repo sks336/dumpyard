@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["hellodk <aditya.dk.rock@gmail.com>"]
 edition = "2018"
 description = "Dummy"
-license = "free"
+license = "MIT"
 
 [dependencies]
