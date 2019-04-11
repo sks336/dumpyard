@@ -3,7 +3,5 @@ name = "communicator1"
 version = "0.1.0"
 authors = ["hellodk <hello.dk@outlook.com>"]
 edition = "2018"
-description = "Dummy"
-license = "free"
 
 [dependencies]
