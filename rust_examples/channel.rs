@@ -1,5 +1,5 @@
 use std::thread;
-use std::sync::mpsc;
+use std::sync::mpsc; // multi producer single consumer
 
 fn main() {
     let (tx, rx) = mpsc::channel();

@@ -7,7 +7,6 @@ match x {
     _ => println!("anything"),
 }
 
-
 let x = 5;
 // matching range of values
 match x {
@@ -15,9 +14,7 @@ match x {
     _ => println!("something else"),
 }
 
-
 // range of char values
-
 let x = 'c';
 match x {
     'a' ... 'j' => println!("early ASCII letter"),

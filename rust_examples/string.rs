@@ -1,7 +1,7 @@
 fn main() {
     // (all the type annotations are superfluous)
     // A reference to a string allocated in read only memory
-    let pangram: &'static str = "the quick brown fox jumps over the lazy dog";
+    let pangram = "the quick brown fox jumps over the lazy dog";
     println!("Pangram: {}", pangram);
 
     // Iterate over words in reverse, no new string is allocated
@@ -37,4 +37,12 @@ fn main() {
 
     println!("Alice says: {}", alice);
     println!("Bob says: {}", bob);
+
+// Concatenation
+    let s1 = String::from("Hello, ");
+    let s2 = String::from("world!");
+    let s3 = s1 + &s2;
+    println!("{:?}", s3);
+
+
 }

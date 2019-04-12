@@ -3,6 +3,6 @@ fn main() {
     let s = Box::new("string");
     println!("b = {}", b);
     println!("b = {}", &b);
-    println!("b = {}", &s);
+    println!("b = {}", &s); // type of data
     println!("b = {}", s);
 }

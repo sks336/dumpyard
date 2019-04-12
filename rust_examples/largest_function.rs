@@ -28,7 +28,7 @@ fn main() {
     let result = largest_i32(&number_list);
     println!("The largest number is {}", result);
 
-    let char_list = vec!['y', 'm', 'a', 'q'];
+    let char_list = vec!['y', 'm', 'a', 'q', 'z'];
 
     let result = largest_char(&char_list);
     println!("The largest char is {}", result);

@@ -1,4 +1,4 @@
-// will not compile - need to add traits in this
+// std::cmp::PartialOrd trait - not all Types can be used, only ones that can be ordered
 fn largest<T: PartialOrd + Copy>(list: &[T]) -> T { // Added the traits here
 // fn largest<T>(list: &[T]) -> T {
     let mut largest = list[0];
