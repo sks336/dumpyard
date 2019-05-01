@@ -1,5 +1,3 @@
-application/mysql/mysql-deployment.yaml
-
 apiVersion: v1
 kind: Service
 metadata:
